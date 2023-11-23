@@ -56,14 +56,14 @@ footer{
 }
 .PhoneContactImage{
     position: absolute;
-    background-image: url(/Hw_1/Images/FooterIcons/PhoneImage.png);
+    background-image: url(/Images/FooterIcons/PhoneImage.png);
     width: 31.5px;
     height: 31.5px;
 }  
 
 .EmailContactImage{
     position: absolute;
-    background-image: url(/Hw_1/Images/FooterIcons/MailImage.png);
+    background-image: url(/Images/FooterIcons/MailImage.png);
     width: 37.5px;
     height: 30px;
 } 

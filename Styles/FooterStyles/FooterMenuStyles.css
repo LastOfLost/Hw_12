@@ -10,22 +10,22 @@
 }
 
 .FacebookIcon{
-    background-image: url(/Hw_1/Images/FooterIcons/FacebookImage.png);
+    background-image: url(/Images/FooterIcons/FacebookImage.png);
     width: 10.5px;
     height: 20px;
 }
 .InstagramIcon{
-    background-image: url(/Hw_1/Images/FooterIcons/InstagramImage.png);
+    background-image: url(/Images/FooterIcons/InstagramImage.png);
     width: 20px;
     height: 20px;
 }
 .TwitterIcon{
-    background-image: url(/Hw_1/Images/FooterIcons/TwitterImage.png);
+    background-image: url(/Images/FooterIcons/TwitterImage.png);
     width: 20.38px;
     height: 16.57px;
 }
 .YoutubeIcon{
-    background-image: url(/Hw_1/Images/FooterIcons/YoutubeImage.png);
+    background-image: url(/Images/FooterIcons/YoutubeImage.png);
     width: 20px;
     height: 16px;
 }
@@ -43,8 +43,8 @@
     margin-right: 30px;
 }
 .svgLine_2{
-    width: auto;
-    height: auto;
+    width: 1px;
+    height: 20px;
 }
 
 .IconsContact{
@@ -150,10 +150,15 @@
 }
 
 .InpunButtonIcon{
-    background-image: url(/Hw_1/Images/FooterIcons/SendImage.png);
+    background-image: url(/Images/FooterIcons/SendImage.png);
     background-size: cover;
     display: flex;
     padding: 1px;
     width: 24px;
     height: 27px;
+}
+
+.Line_2{
+    width: 1px;
+    height: 20px;
 }

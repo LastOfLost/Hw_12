@@ -1,0 +1,87 @@
+
+@font-face {
+    font-family: 'MyInter'; /* Замените на имя вашего шрифта */
+    src: url('/Fonts/Inter_Font.ttf') format('woff2'); /* Замените на путь к вашему файлу шрифта и формат */
+    font-weight: normal;
+    font-style: normal;
+}
+
+:root{
+    --preview-color: #fff8ed;
+    --main-color: #fff;
+    --standart-color-1: #3C3C3C;
+    --standart-color-2: #FCC647;
+    --standart-color-3: #FFEFC8;
+    --info-color: #667085;
+    --info-color-2: #232233;
+}
+
+*{
+    margin: 0px;
+    position: relative;
+    font-family: MyInter;
+}
+
+a{
+  user-select: none;
+  text-decoration: none;
+}
+
+svg{
+    border: none !important;
+    outline: none !important;
+    background-size: cover;
+    position: absolute;
+}
+
+header{
+    /* background-image: url(../Images/HeaderBacgroundImage.png); */
+}
+
+body{
+    height: 1440px;
+    width: 100%;
+    background-color: #FFFBF3;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+main{
+    background: var(--main-color);
+    position: absolute;
+    top: 785px;
+    height: 100vw;
+    width: 100vw;
+}
+
+.flex-container-row {
+    display: flex;
+    flex-direction:row;
+}
+.flex-container-column {
+    display: flex;
+    flex-direction:column;
+}
+.can-flex-wrap{
+    flex-wrap: wrap;
+}
+
+.flex-item {
+    display: flex;
+    flex: 1;
+    flex-wrap: wrap;
+}
+.flex-item-center {
+    flex: 1;
+    text-align: center;
+}
+
+.content-center{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}

@@ -1,0 +1,30 @@
+
+#HeaderSiteName{
+    top: 29px;
+    left: 133px;
+    margin-bottom: 0px;
+    font-weight: 1000;
+    font-size: 32px;
+}
+
+.HeaderMenu{
+    position: absolute;
+    top: 38px;
+    margin-left: 613px;
+    width: 696px;
+}
+
+.HeaderMenuItem{
+    font-size: 20px;
+    font-weight: 500;
+    font-family: Segoe UI;
+    color: #3C3C3C;
+}
+
+.HeaderMenuItemHome{
+    color: #FCC647;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: Segoe UI;
+    text-decoration: underline;
+}

@@ -1,0 +1,178 @@
+
+
+:root{
+    --buy-button-color: #F24D21;
+    --share-button-color: #3C3C3C;
+}
+
+.ListDishes{
+    position: absolute;
+top: 879px;
+left: 117px;
+width: 1207px;
+height: 738px;
+}
+
+.DishItem{
+    width: 273px;
+    height: 319px;
+    border: 0.7px solid #70707033;
+    width: 273px;
+    height: 319px;
+    border-radius: 15px;
+    margin-right: 25px;
+    margin-bottom: 45px;
+    background-color: #FFFFFF;
+}
+.RatingStarArea{
+    width: 13.86px;
+    height: 12.22px;
+    margin-right: 3px;
+}
+
+.RatingStarImage{
+    background-image: url(/Images/ListDishes/RatingStar.png);
+    width: 13.86px;
+    height: 12.22px;
+}
+
+.DishRating{
+    position: absolute;
+    width: 86.97px;
+    height: 16.21px;
+    left: 16.13px;
+    top: 160px;
+    display: flex;
+}
+
+.DishImage_1{
+    background-image: url(/Images/ListDishes/Dishes/DishImage_1.png);
+    width: 147.48px;
+    height: 146.72px;
+    top: 15px;
+    left: 63px;
+    flex: 1;
+    flex-direction: column;
+}
+.DishImage_2{
+    background-image: url(/Images/ListDishes/Dishes/DishImage_2.png);
+    width: 161.85px;
+    height: 152.77px;
+    top: 15px;
+    left: 63px;
+    flex: 1;
+    flex-direction: column;
+}
+.DishImage_3{
+    background-image: url(/Images/ListDishes/Dishes/DishImage_3.png);
+    width: 134px;
+    height: 133px;
+    top: 15px;
+    left: 63px;
+    flex: 1;
+    flex-direction: column;
+}
+.DishImage_4{
+    background-image: url(/Images/ListDishes/Dishes/DishImage_4.png);
+    width: 147.48px;
+    height: 146.72px;
+    top: 15px;
+    left: 63px;
+    flex: 1;
+    flex-direction: column;
+}
+.DishImage_5{
+    background-image: url(/Images/ListDishes/Dishes/DishImage_5.png);
+    width: 147.48px;
+    height: 146.72px;
+    top: 15px;
+    left: 63px;
+    flex: 1;
+    flex-direction: column;
+}
+.DishImage_6{
+    background-image: url(/Images/ListDishes/Dishes/DishImage_6.png);
+    width: 147.48px;
+    height: 146.72px;
+    top: 15px;
+    left: 63px;
+    flex: 1;
+    flex-direction: column;
+}
+
+.DishName{
+    font-family: Segoe UI;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: var(standart-color-1);
+    position: absolute;
+    left: 18px;
+    top: 181px;
+}
+
+.DishInfo{
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: var(--info-color);
+    position: absolute;
+    left: 19px;
+    top: 211px;
+}
+
+.DishPrice{ 
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: var(standart-color-1);
+    position: absolute;
+    left: 19px;
+    top: 277px;
+}
+
+.BuyDishButton{
+    position: absolute;
+    background-color: var(--buy-button-color);
+    border-radius: 3.9px;
+    width: 28.1px;
+    height: 28.1px;
+    left: 185px;
+    top: 274px;
+}
+
+.BuyDishIcon{
+    background-image: url(/Images/ListDishes/BuyDish.png);
+    filter: blur(0.15px);
+    position: absolute;
+    width: 16.23px;
+    height: 15.61px;
+    left: 5px;
+    top: 6px;
+}
+
+.ShareDishButton{
+    position: absolute;
+    background-color: var(--share-button-color);
+    border-radius: 3.9px;
+    width: 28.1px;
+    height: 28.1px;
+    left: 222px;
+    top: 274px;
+}
+
+.ShareDishIcon{
+    background-image: url(/Images/ListDishes/Share.png);
+    filter: blur(0.15px);
+    position: absolute;
+    width: 13.63px;
+    height: 14.9px;
+    left: 7px;
+    top: 7px;
+}

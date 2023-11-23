@@ -1,0 +1,42 @@
+
+.SelectedPageArea{
+    position: absolute;
+    width: 400px;
+    height: 40px;
+    top: 1651px;
+    left: 520px;
+    gap:20px;
+}
+
+.PageButton{
+    width: 39px;
+    height: 39px;
+    border: 1px solid #EAECED;
+    background-color: var(--main-color);
+    color: var(--info-color);
+    border-radius: 100%;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.IsSelected{
+    background-color: var(--standart-color-2);
+    color: var(--main-color);
+}
+
+
+.NextArrowImage{
+    background-image: url("/Images/Aarrow.png");
+    rotate: 180deg;
+    height: 10px;
+    width: 16px;
+}
+
+.PrevArrowImage{
+    background-image: url("/Images/Aarrow.png");
+    height: 10px;
+    width: 16px;
+}

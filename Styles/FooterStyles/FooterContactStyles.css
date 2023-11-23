@@ -1,0 +1,91 @@
+
+footer{
+    position: absolute;
+    width: 1626px;
+    height: 670px;
+    top: 4150px;
+}
+
+.FooterMenu{
+    position: absolute;
+    width: 1626px;
+    height: 542px;
+    top: 128px;
+    background-color: #232233;
+}
+
+.FooterContact{
+    position: absolute;
+    width: 1170px;
+    height: 230px;
+    border-radius: 30px;
+}
+
+.Elipse_1{
+    position: absolute;
+    fill: var(--standart-color-2);
+}
+
+.ContactPanel{
+    position: absolute;
+    width: 1170px;
+    height: 230px;
+    left: 135px;
+    border-radius: 30px; 
+    background-color: var(--main-color);
+    box-shadow: 0px 10px 100px 0px #0000003D;
+}
+
+.Content{
+    position: absolute;
+    width: 973px;
+    height: 117px;
+    display: flex;
+    align-items: center;
+}
+
+.PhoneIcon{
+    height: 100px;
+    width: 100px;
+    margin-right: 18px;
+}
+.EmailIcon{
+    height: 100px;
+    width: 100px;
+    margin-right: 18px;
+}
+.PhoneContactImage{
+    position: absolute;
+    background-image: url(/Hw_1/Images/FooterIcons/PhoneImage.png);
+    width: 31.5px;
+    height: 31.5px;
+}  
+
+.EmailContactImage{
+    position: absolute;
+    background-image: url(/Hw_1/Images/FooterIcons/MailImage.png);
+    width: 37.5px;
+    height: 30px;
+} 
+
+.ShareStyle{
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 38px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: var(--info-color-2);
+    display: flex;
+}
+
+.IconContent{
+top: 0px;
+}
+
+.Line{
+    width: 4px;
+    height: 117px;
+    stroke: #e6e6e6;
+    margin-left: 94px;
+    margin-right: 94px;
+}

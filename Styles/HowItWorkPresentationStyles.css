@@ -1,0 +1,174 @@
+
+.HowItWorkPresentation{
+    width: 1137px;
+    height: 553px;
+    top: 96px;
+    left: 150px;
+    border: 1px;      
+}
+
+.HowItWorkHeader{
+    
+}
+.HowItWorkInfo{
+    
+}
+.ConnectedIcon_1{
+    transform: scaleY(-1) scaleX(1);
+    background-image: url(/Images/ConnectionIcon.png);
+    width: 211.5px;
+    height: 41.64px;
+    top: 266px;
+    left: 252.5px;
+    border: 1px;
+}
+
+.ConnectedIcon_2{
+    transform: scaleY(-1) scaleX(1);
+    background-image: url(/Images/ConnectionIcon.png);
+    rotate: -195deg;
+    width: 211.5px;
+    height: 41.64px;
+    top: 260.64px;
+    left: 659px;
+    border: 1px;
+}
+
+
+.HowItWorkAreaType{
+    position: absolute;
+    width: 324px;
+    height: 298px;
+}
+.OrderNowArea{
+    top: 211px;
+}
+.GetDeliveryArea{
+    top: 255px;
+    left: 405px;
+}
+
+.PaymentArea{
+    top: 211px;
+    left: 815px;
+}
+
+.OrderNowIconBackground{
+    background-image: url(/Images/OrderNowBackground.png);
+    position: absolute;
+    width: 88px;
+    height: 88px;
+    left: 118px;
+}
+.GetDeliveryIconBackground{
+    background-image: url(/Images/GetDeliveryBackground.png);
+    position: absolute;
+    width: 88px;
+    height: 88px;
+    left: 118px;
+}
+.PaymentIconBackground{
+    background-image: url(/Images/PaymentBackground.png);
+    position: absolute;
+    width: 88px;
+    height: 88px;
+    left: 118px;
+}
+
+.OrderNowIcon{
+    background-image: url(/Images/OrderNowIcon.png);
+    position: absolute;
+    width: 42.05px;
+    height: 32.9px;
+    left: 141px;
+    top: 27.5px;
+}
+
+.GetDeliveryIcon{
+    background-image: url(/Images/GetDeliveryIcon.png);
+    position: absolute;
+    width: 55.47px;
+    height: 26.46px;
+    left: 133px;
+    top: 31px;
+}
+
+.PaymentIcon{
+    background-image: url(/Images/PaymentIcon.png);
+    position: absolute;
+    width: 39.02px;
+    height: 39.03px;
+    left: 142.5px;
+    top: 24.5px;
+}
+
+.HowItWorkHeader{
+    position: absolute;
+    width: 231px;
+    height: 42px;
+    left: 457px;
+    
+    font-family: Segoe UI;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #3C3C3C;
+}
+
+.HowItWorkInfo{
+    position: absolute;
+    width: 505px;
+    height: 125px;
+    top: 72px;
+    left: 309px;
+    color: var(--info-color);
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+.HeaderStyle_1{
+font-size: 18px;
+font-weight: 600;
+line-height: 32px;
+letter-spacing: 0em;
+text-align: center;
+color: #3C3C3C;
+}
+
+.InfoStyle_1{
+font-size: 14px;
+font-weight: 400;
+line-height: 27px;
+letter-spacing: 0em;
+text-align: center;
+color: var(--info-color);
+position: absolute;
+width: 325px;
+height: 125px;
+top: 173px;
+}
+
+.OrderNowHeader{
+    position: absolute;
+    width: 105px;
+    height: 26px;
+    top: 128px;
+    left: 110px;
+}
+.GetDeliveryHeader{
+    position: absolute;
+    width: 108px;
+    height: 26px;
+    top: 128px;
+    left: 110px;    
+}
+.PaymentHeader{
+    position: absolute;
+    width: 77px;
+    height: 26px;
+    top: 128px;
+    left: 125px;
+}

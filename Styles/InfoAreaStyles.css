@@ -1,0 +1,92 @@
+
+.InfoArea{
+    position: absolute;
+    width: 1491px;
+    height: 712px;
+    top: 1806px;
+    left: -41px;
+    overflow: hidden;
+    background-color: #FFFBF3;
+}
+
+.InfoImage{
+    background-image: url(/Images/Image_2.png);
+    width: 466.69px;
+    height: 822px;
+    top: -55px;
+    left: 132.31px;
+    position: absolute;
+}
+
+.InfoArea_2{
+    position: absolute;
+    width: 565.5px;
+    height: 507px;
+    top: 98px;
+    left: 765px;
+    border-radius: 6px;
+}
+
+.OurTargetButton{
+    position: absolute;
+    width: 109px;
+    height: 32px;
+    padding: 0px, 8px, 0px, 8px;
+    border-radius: 6px;
+    gap: 8px;
+    background-color: var(--standart-color-3);
+}
+
+.OurTargetButtonText{
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 12px;
+    letter-spacing: 0px;
+    color: var(--standart-color-2);
+}
+
+.InfoHeader{
+    width: 565px;
+    height: 140px;
+    top: 45px;
+    font-family: Segoe UI;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #535353;
+}
+
+.InfoText{
+    position: absolute;
+    width: 537px;
+    height: 260px;
+    top: 173px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+    color:var(--info-color);
+}
+
+.OrderNowButton{
+    position: absolute;
+    width: 121px;
+    height: 44px;
+    top: 463px;
+    padding: 6px, 9px, 6px, 9px;
+    border-radius: 6px;
+    gap: 8px;
+    background-color: var(--standart-color-2);
+}
+
+.OrderNowButtonText{
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 12px;
+    letter-spacing: 0px;
+    text-align: center;
+    color: var(--main-color);    
+}

@@ -1,0 +1,67 @@
+
+
+.AppArea{
+    position: absolute;
+    width: 1170px;
+    height: 575px;
+    top: 2634px;
+    left: 137px;
+}
+
+.GooglePlay{
+    position: absolute;
+    background-image: url(/Images/AppIcons/GooglePleyApp.png);
+    background-size: cover;
+    width: 139.65px;
+    height: 45.41px;
+    top: 399px;
+    position: absolute;
+}
+
+.AppStore{
+    position: absolute;
+    background-image: url(/Images/AppIcons/AppStoreApp.png);
+    background-size: cover;
+    width: 139.65px;
+    height: 45.41px;
+    top: 399px;
+    left: 162.35px;    
+    position: absolute;
+}
+
+.AppHeader{
+    position: absolute;
+    width: 418px;
+    height: 192px;
+    top: 128px;
+    font-family: Segoe UI;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: var(--standart-color-1);
+}
+
+.AppInfo{
+    position: absolute;
+    width: 501px;
+    height: 125px;
+    top: 253px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: var(--info-color);
+}
+
+.PreviewAppOnPhone{
+    position: absolute;
+    background-image: url(/Images/AppIcons/PreviewApponPhone.png);
+    background-size: cover;
+    width: 575px;
+    height: 575px;
+    left: 595px;
+    
+}

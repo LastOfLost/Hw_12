@@ -1,24 +1,24 @@
 
 footer{
     position: absolute;
-    width: 1626px;
-    height: 670px;
-    top: 4150px;
+    width: 1626rem;
+    height: 670rem;
+    top: 4150rem;
 }
 
 .FooterMenu{
     position: absolute;
-    width: 1626px;
-    height: 542px;
-    top: 128px;
+    width: 1626rem;
+    height: 542rem;
+    top: 128rem;
     background-color: #232233;
 }
 
 .FooterContact{
     position: absolute;
-    width: 1170px;
-    height: 230px;
-    border-radius: 30px;
+    width: 1170rem;
+    height: 230rem;
+    border-radius: 30rem;
 }
 
 .Elipse_1{
@@ -28,50 +28,50 @@ footer{
 
 .ContactPanel{
     position: absolute;
-    width: 1170px;
-    height: 230px;
-    left: 135px;
-    border-radius: 30px; 
+    width: 1170rem;
+    height: 230rem;
+    left: 135rem;
+    border-radius: 30rem; 
     background-color: var(--main-color);
-    box-shadow: 0px 10px 100px 0px #0000003D;
+    box-shadow: 0rem 10rem 100rem 0rem #0000003D;
 }
 
 .Content{
     position: absolute;
-    width: 973px;
-    height: 117px;
+    width: 973rem;
+    height: 117rem;
     display: flex;
     align-items: center;
 }
 
 .PhoneIcon{
-    height: 100px;
-    width: 100px;
-    margin-right: 18px;
+    height: 100rem;
+    width: 100rem;
+    margin-right: 18rem;
 }
 .EmailIcon{
-    height: 100px;
-    width: 100px;
-    margin-right: 18px;
+    height: 100rem;
+    width: 100rem;
+    margin-right: 18rem;
 }
 .PhoneContactImage{
     position: absolute;
     background-image: url(/Images/FooterIcons/PhoneImage.png);
-    width: 31.5px;
-    height: 31.5px;
+    width: 31.5rem;
+    height: 31.5rem;
 }  
 
 .EmailContactImage{
     position: absolute;
     background-image: url(/Images/FooterIcons/MailImage.png);
-    width: 37.5px;
-    height: 30px;
+    width: 37.5rem;
+    height: 30rem;
 } 
 
 .ShareStyle{
-    font-size: 28px;
+    font-size: 28rem;
     font-weight: 600;
-    line-height: 38px;
+    line-height: 38rem;
     letter-spacing: 0em;
     text-align: left;
     color: var(--info-color-2);
@@ -79,13 +79,13 @@ footer{
 }
 
 .IconContent{
-top: 0px;
+top: 0rem;
 }
 
 .Line{
-    width: 4px;
-    height: 117px;
+    width: 4rem;
+    height: 117rem;
     stroke: #e6e6e6;
-    margin-left: 94px;
-    margin-right: 94px;
+    margin-left: 94rem;
+    margin-right: 94rem;
 }

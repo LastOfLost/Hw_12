@@ -1,21 +1,22 @@
 
 #HeaderSiteName{
-    top: 29px;
-    left: 133px;
-    margin-bottom: 0px;
+    top: 29rem;
+    left: 133rem;
+    margin-bottom: 0rem;
     font-weight: 1000;
-    font-size: 32px;
+    font-size: 32rem;
 }
 
 .HeaderMenu{
     position: absolute;
-    top: 38px;
-    margin-left: 613px;
-    width: 696px;
+    top: 38rem;
+    margin-left: 613rem;
+    width: 696rem;
+    gap: 80rem;
 }
 
 .HeaderMenuItem{
-    font-size: 20px;
+    font-size: 20rem;
     font-weight: 500;
     font-family: Segoe UI;
     color: #3C3C3C;
@@ -23,7 +24,7 @@
 
 .HeaderMenuItemHome{
     color: #FCC647;
-    font-size: 20px;
+    font-size: 20rem;
     font-weight: 500;
     font-family: Segoe UI;
     text-decoration: underline;

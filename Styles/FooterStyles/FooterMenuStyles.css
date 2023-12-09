@@ -2,54 +2,54 @@
 
 .MenuArea_1{
     position: absolute;
-    top: 243px;
-    left: 135px;
-    width: 331px;
-    height: 162px;
+    top: 243rem;
+    left: 135rem;
+    width: 331rem;
+    height: 162rem;
     flex-shrink: 0;
 }
 
 .FacebookIcon{
     background-image: url(/Images/FooterIcons/FacebookImage.png);
-    width: 10.5px;
-    height: 20px;
+    width: 10.5rem;
+    height: 20rem;
 }
 .InstagramIcon{
     background-image: url(/Images/FooterIcons/InstagramImage.png);
-    width: 20px;
-    height: 20px;
+    width: 20rem;
+    height: 20rem;
 }
 .TwitterIcon{
     background-image: url(/Images/FooterIcons/TwitterImage.png);
-    width: 20.38px;
-    height: 16.57px;
+    width: 20.38rem;
+    height: 16.57rem;
 }
 .YoutubeIcon{
     background-image: url(/Images/FooterIcons/YoutubeImage.png);
-    width: 20px;
-    height: 16px;
+    width: 20rem;
+    height: 16rem;
 }
 .IconContentArea{
-    width: 24px;
-    height: 24px;
+    width: 24rem;
+    height: 24rem;
     position: static;
 }
 
 .Line_2{
-    width: 1px;
-    height: 20px;
+    width: 1rem;
+    height: 20rem;
     stroke: white;
-    margin-left: 30px;
-    margin-right: 30px;
+    margin-left: 30rem;
+    margin-right: 30rem;
 }
 .svgLine_2{
-    width: 1px;
-    height: 20px;
+    width: 1rem;
+    height: 20rem;
 }
 
 .IconsContact{
-    height: 24px;
-    width: 331px;
+    height: 24rem;
+    width: 331rem;
     display: flex;
     align-items: center;
     position: absolute;
@@ -58,66 +58,66 @@
 .MenuHeader{
     color: var(--White, #FFF);
     font-family: Segoe UI;
-    font-size: 25px;
+    font-size: 25rem;
     font-style: normal;
     font-weight: 700;
-    line-height: 37.5px; /* 150% */
+    line-height: 37.5rem; /* 150% */
     text-transform: uppercase;
 }
 
 .MenuInfo_1{
     color: var(--White, #FFF);
-    font-size: 14px;
+    font-size: 14rem;
     font-style: normal;
     font-weight: 400;
-    line-height: 25px;
-    margin-top: 16px;
-    margin-bottom: 50px;
+    line-height: 25rem;
+    margin-top: 16rem;
+    margin-bottom: 50rem;
 }
 .MenuInfo_2{
     color: var(--White, #FFF);
-    font-size: 16px;
+    font-size: 16rem;
     font-weight: 400;
-    line-height: 24px;
+    line-height: 24rem;
     letter-spacing: 0em;
     text-align: left;
-    margin-top: 11px;
-    margin-bottom: 33px;
+    margin-top: 11rem;
+    margin-bottom: 33rem;
 }
 
 .MenuArea_2{
-    top:235px;
-    left:582px;
-    height: 181px;
-    width: 153px;
+    top:235rem;
+    left:582rem;
+    height: 181rem;
+    width: 153rem;
 }
 
 .MenuArea_3{
-    top:235px;
-    left:935px;
-    height: 180px;
-    width: 369px;
+    top:235rem;
+    left:935rem;
+    height: 180rem;
+    width: 369rem;
     position: absolute;
 }
 
 .ButtonInfo{
     color: var(--White, #FFF);
     font-family: Segoe UI;
-    font-size: 16px;
+    font-size: 16rem;
     font-style: normal;
     font-weight: 600;
-    line-height: 24px; /* 150% */
+    line-height: 24rem; /* 150% */
 }
 
 .MenuItemMargin{
-    margin-bottom: 12px;
+    margin-bottom: 12rem;
 }
 
 .InpunPanel{
-    width: 369px;
-    height: 50px;
+    width: 369rem;
+    height: 50rem;
     flex-shrink: 0;
-    border-radius: 4px;
+    border-radius: 4rem;
     background: var(--White, #FFF);
     display: flex;
     align-items: center;
@@ -125,40 +125,50 @@
 
 .InpunStyle{
     position: absolute;
-    width: 297px;
-    height: 24px;
-    font-size: 16px;
+    width: 297rem;
+    height: 24rem;
+    font-size: 16rem;
     font-style: normal;
     font-weight: 400;
-    line-height: 24px;
-    margin-left: 18px;
+    line-height: 24rem;
+    margin-left: 18rem;
+    outline: none !important;
     border: none !important;
 }
 
+
 .InpunStyle:focus{
-    outline: 0px;
+    outline: 0rem;
 }
 
 .InpunButton{
     position: absolute;
-    right: 2px;
-    width: 52px;
-    height: 46px;
+    right: 2rem;
+    width: 52rem;
+    height: 46rem;
     flex-shrink: 0;
-    border-radius: 4px;
+    border-radius: 4rem;
+    border: 0px;
+    outline: 0px;
     background-color: var(--standart-color-2);
+    z-index: 100;
+    cursor: pointer;
+}
+
+.InpunButton:active{
+    background-color: #e7c23c;
 }
 
 .InpunButtonIcon{
     background-image: url(/Images/FooterIcons/SendImage.png);
     background-size: cover;
     display: flex;
-    padding: 1px;
-    width: 24px;
-    height: 27px;
+    padding: 1rem;
+    width: 24rem;
+    height: 27rem;
 }
 
 .Line_2{
-    width: 1px;
-    height: 20px;
+    width: 1rem;
+    height: 20rem;
 }

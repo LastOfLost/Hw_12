@@ -1,26 +1,26 @@
 
 
 .OurDeliciousDishPreview{
-    width: 465px;
-    height: 105px;
-    top: 164px;
-    left: 488px;
+    width: 465rem;
+    height: 105rem;
+    top: 164rem;
+    left: 488rem;
 }
 
 .OurDeliciousDishHeader{
     font-family: Segoe UI;
-    font-size: 36px;
+    font-size: 36rem;
     font-weight: 700;
-    line-height: 48px;
+    line-height: 48rem;
     letter-spacing: 0em;
-    height: 42px;
+    height: 42rem;
 }
 
 .OurDeliciousDishInfo{
-    top: 7px;
-    font-size: 14px;
+    top: 7rem;
+    font-size: 14rem;
     font-weight: 400;
-    line-height: 27px;
+    line-height: 27rem;
     letter-spacing: 0em;
     color: var(--info-color);    
 }

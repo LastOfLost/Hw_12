@@ -1,23 +1,23 @@
 
 .SelectedPageArea{
     position: absolute;
-    width: 400px;
-    height: 40px;
-    top: 1651px;
-    left: 520px;
-    gap:20px;
+    width: 400rem;
+    height: 40rem;
+    top: 1651rem;
+    left: 520rem;
+    gap:20rem;
 }
 
 .PageButton{
-    width: 39px;
-    height: 39px;
-    border: 1px solid #EAECED;
+    width: 39rem;
+    height: 39rem;
+    border: 1rem solid #EAECED;
     background-color: var(--main-color);
     color: var(--info-color);
     border-radius: 100%;
-    font-size: 16px;
+    font-size: 16rem;
     font-weight: 700;
-    line-height: 18px;
+    line-height: 18rem;
     letter-spacing: 0em;
     text-align: left;
 }
@@ -31,12 +31,12 @@
 .NextArrowImage{
     background-image: url("/Images/Aarrow.png");
     rotate: 180deg;
-    height: 10px;
-    width: 16px;
+    height: 10rem;
+    width: 16rem;
 }
 
 .PrevArrowImage{
     background-image: url("/Images/Aarrow.png");
-    height: 10px;
-    width: 16px;
+    height: 10rem;
+    width: 16rem;
 }

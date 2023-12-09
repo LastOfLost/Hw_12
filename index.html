@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=0.8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.1">
     <title>Tammy Food</title>
     <link rel="stylesheet" href="./Styles/BasicStyles.css">
     <link rel="stylesheet" href="./Styles/HeaderStyles.css">
@@ -15,6 +15,7 @@
     <link rel="stylesheet" href="./Styles/AppAreaStyles.css">
     <link rel="stylesheet" href="./Styles/FooterStyles/FooterContactStyles.css">
     <link rel="stylesheet" href="./Styles/FooterStyles/FooterMenuStyles.css">
+    <link rel="stylesheet" href="./Styles/MediaStyles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
 
 </head>
@@ -474,11 +475,11 @@
             <div class="MenuArea_3">
                 <p class="MenuHeader">news letter</p>
                 <p class="MenuInfo_2">Subscribe our newsletter to get our latest<br>update & news</p>
-                <div class="InpunPanel">
-                    <input class="InpunStyle" placeholder="Your email address">
-                    <a class="InpunButton content-center" href="">
+                <div id="emailInputPanel" class="InpunPanel">
+                    <input id="emailInput" class="InpunStyle" placeholder="Your email address">
+                    <button id="inpunButton" class="InpunButton content-center" href="">
                         <svg class="InpunButtonIcon"></svg>
-                    </a>
+                    </button>
                 </div>
             </div>
         </div>
@@ -487,7 +488,7 @@
                 <div class="Content">
                     <div class="EmailIcon">
                     <svg>
-                       <ellipse cx="50" cy="50" rx="50" ry="50" class="Elipse_1"></ellipse>
+                       <ellipse cx="50rem" cy="50rem" rx="50rem" ry="50rem" class="Elipse_1"></ellipse>
                     </svg>
                     <div class="IconContent content-center">
                         <svg class="EmailContactImage"></svg>
@@ -496,12 +497,12 @@
                     <a class="ShareStyle" href="mailto:info@youremail.com">info@youremail.com</a>
                     <div class="Line">
                     <svg>
-                        <line x1="0" y1="0" x2="0" y2="117" stroke-width="4"></line>
+                        <line x1="0rem" y1="0rem" x2="0rem" y2="117rem" stroke-width="4"></line>
                     </svg>
                     </div>
                     <div class="PhoneIcon">
                     <svg>
-                        <ellipse cx="50" cy="50" rx="50" ry="50" class="Elipse_1"></ellipse>
+                        <ellipse cx="50rem" cy="50rem" rx="50rem" ry="50rem" class="Elipse_1"></ellipse>
                     </svg>
                     <div class="IconContent content-center">
                         <svg class="PhoneContactImage"></svg>
@@ -512,6 +513,28 @@
             </div>
         </div>
     </footer>
+
+    <script type="module">
+        alert('Адаптация страницы сделана под мобильный режим')
+    </script>
+    <script>
+        
+        document.getElementById('inpunButton').addEventListener('click', provEmailInputValided);
+    
+        function provEmailInputValided (){
+            var emailInput = document.getElementById('emailInput');
+            var inputPanel = document.getElementById('emailInputPanel');
+            var email = emailInput.value;
+
+            if (/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email) && email.length >= 4) {
+                inputPanel.style.border = '2px solid #00FF00';
+            } 
+            else {
+                inputPanel.style.border = '2px solid #FF0000';
+            }
+        };
+
+    </script>
 
 </body>
 <!-- comment -->

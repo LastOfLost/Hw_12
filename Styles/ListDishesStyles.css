@@ -7,172 +7,172 @@
 
 .ListDishes{
     position: absolute;
-top: 879px;
-left: 117px;
-width: 1207px;
-height: 738px;
+top: 879rem;
+left: 117rem;
+width: 1207rem;
+height: 738rem;
 }
 
 .DishItem{
-    width: 273px;
-    height: 319px;
-    border: 0.7px solid #70707033;
-    width: 273px;
-    height: 319px;
-    border-radius: 15px;
-    margin-right: 25px;
-    margin-bottom: 45px;
+    width: 273rem;
+    height: 319rem;
+    border: 0.7rem solid #70707033;
+    width: 273rem;
+    height: 319rem;
+    border-radius: 15rem;
+    margin-right: 25rem;
+    margin-bottom: 45rem;
     background-color: #FFFFFF;
 }
 .RatingStarArea{
-    width: 13.86px;
-    height: 12.22px;
-    margin-right: 3px;
+    width: 13.86rem;
+    height: 12.22rem;
+    margin-right: 3rem;
 }
 
 .RatingStarImage{
     background-image: url(/Images/ListDishes/RatingStar.png);
-    width: 13.86px;
-    height: 12.22px;
+    width: 13.86rem;
+    height: 12.22rem;
 }
 
 .DishRating{
     position: absolute;
-    width: 86.97px;
-    height: 16.21px;
-    left: 16.13px;
-    top: 160px;
+    width: 86.97rem;
+    height: 16.21rem;
+    left: 16.13rem;
+    top: 160rem;
     display: flex;
 }
 
 .DishImage_1{
     background-image: url(/Images/ListDishes/Dishes/DishImage_1.png);
-    width: 147.48px;
-    height: 146.72px;
-    top: 15px;
-    left: 63px;
+    width: 147.48rem;
+    height: 146.72rem;
+    top: 15rem;
+    left: 63rem;
     flex: 1;
     flex-direction: column;
 }
 .DishImage_2{
     background-image: url(/Images/ListDishes/Dishes/DishImage_2.png);
-    width: 161.85px;
-    height: 152.77px;
-    top: 15px;
-    left: 63px;
+    width: 161.85rem;
+    height: 152.77rem;
+    top: 15rem;
+    left: 63rem;
     flex: 1;
     flex-direction: column;
 }
 .DishImage_3{
     background-image: url(/Images/ListDishes/Dishes/DishImage_3.png);
-    width: 134px;
-    height: 133px;
-    top: 15px;
-    left: 63px;
+    width: 134rem;
+    height: 133rem;
+    top: 15rem;
+    left: 63rem;
     flex: 1;
     flex-direction: column;
 }
 .DishImage_4{
     background-image: url(/Images/ListDishes/Dishes/DishImage_4.png);
-    width: 147.48px;
-    height: 146.72px;
-    top: 15px;
-    left: 63px;
+    width: 147.48rem;
+    height: 146.72rem;
+    top: 15rem;
+    left: 63rem;
     flex: 1;
     flex-direction: column;
 }
 .DishImage_5{
     background-image: url(/Images/ListDishes/Dishes/DishImage_5.png);
-    width: 147.48px;
-    height: 146.72px;
-    top: 15px;
-    left: 63px;
+    width: 147.48rem;
+    height: 146.72rem;
+    top: 15rem;
+    left: 63rem;
     flex: 1;
     flex-direction: column;
 }
 .DishImage_6{
     background-image: url(/Images/ListDishes/Dishes/DishImage_6.png);
-    width: 147.48px;
-    height: 146.72px;
-    top: 15px;
-    left: 63px;
+    width: 147.48rem;
+    height: 146.72rem;
+    top: 15rem;
+    left: 63rem;
     flex: 1;
     flex-direction: column;
 }
 
 .DishName{
     font-family: Segoe UI;
-    font-size: 18px;
+    font-size: 18rem;
     font-weight: 700;
-    line-height: 22px;
+    line-height: 22rem;
     letter-spacing: 0em;
     text-align: left;
     color: var(standart-color-1);
     position: absolute;
-    left: 18px;
-    top: 181px;
+    left: 18rem;
+    top: 181rem;
 }
 
 .DishInfo{
-    font-size: 12px;
+    font-size: 12rem;
     font-weight: 400;
-    line-height: 20px;
+    line-height: 20rem;
     letter-spacing: 0em;
     text-align: left;
     color: var(--info-color);
     position: absolute;
-    left: 19px;
-    top: 211px;
+    left: 19rem;
+    top: 211rem;
 }
 
 .DishPrice{ 
-    font-size: 16px;
+    font-size: 16rem;
     font-weight: 600;
-    line-height: 21px;
+    line-height: 21rem;
     letter-spacing: 0em;
     text-align: left;
     color: var(standart-color-1);
     position: absolute;
-    left: 19px;
-    top: 277px;
+    left: 19rem;
+    top: 277rem;
 }
 
 .BuyDishButton{
     position: absolute;
     background-color: var(--buy-button-color);
-    border-radius: 3.9px;
-    width: 28.1px;
-    height: 28.1px;
-    left: 185px;
-    top: 274px;
+    border-radius: 3.9rem;
+    width: 28.1rem;
+    height: 28.1rem;
+    left: 185rem;
+    top: 274rem;
 }
 
 .BuyDishIcon{
     background-image: url(/Images/ListDishes/BuyDish.png);
-    filter: blur(0.15px);
+    filter: blur(0.15rem);
     position: absolute;
-    width: 16.23px;
-    height: 15.61px;
-    left: 5px;
-    top: 6px;
+    width: 16.23rem;
+    height: 15.61rem;
+    left: 5rem;
+    top: 6rem;
 }
 
 .ShareDishButton{
     position: absolute;
     background-color: var(--share-button-color);
-    border-radius: 3.9px;
-    width: 28.1px;
-    height: 28.1px;
-    left: 222px;
-    top: 274px;
+    border-radius: 3.9rem;
+    width: 28.1rem;
+    height: 28.1rem;
+    left: 222rem;
+    top: 274rem;
 }
 
 .ShareDishIcon{
     background-image: url(/Images/ListDishes/Share.png);
-    filter: blur(0.15px);
+    filter: blur(0.15rem);
     position: absolute;
-    width: 13.63px;
-    height: 14.9px;
-    left: 7px;
-    top: 7px;
+    width: 13.63rem;
+    height: 14.9rem;
+    left: 7rem;
+    top: 7rem;
 }

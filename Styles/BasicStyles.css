@@ -17,7 +17,7 @@
 }
 
 *{
-    margin: 0px;
+    margin: 0rem;
     position: relative;
     font-family: MyInter;
 }
@@ -34,25 +34,24 @@ svg{
     position: absolute;
 }
 
+html{
+    font-size: 1px;
+}
+
 header{
     /* background-image: url(../Images/HeaderBacgroundImage.png); */
 }
 
 body{
-    height: 1440px;
-    width: 100%;
+    overflow-x: 2440rem;
     background-color: #FFFBF3;
-    margin: 0;
-    padding: 0;
-    overflow-x: hidden;
 }
 
 main{
     background: var(--main-color);
     position: absolute;
-    top: 785px;
+    top: 785rem;
     height: 100vw;
-    width: 100vw;
 }
 
 .flex-container-row {
@@ -67,12 +66,12 @@ main{
     flex-wrap: wrap;
 }
 
-.flex-item {
+.flex-itrem {
     display: flex;
     flex: 1;
     flex-wrap: wrap;
 }
-.flex-item-center {
+.flex-itrem-center {
     flex: 1;
     text-align: center;
 }

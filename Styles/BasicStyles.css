@@ -1,7 +1,7 @@
 
 @font-face {
     font-family: 'MyInter'; /* Замените на имя вашего шрифта */
-    src: url('/Fonts/Inter_Font.ttf') format('woff2'); /* Замените на путь к вашему файлу шрифта и формат */
+    src: url('../Fonts/Inter_Font.ttf') format('woff2'); /* Замените на путь к вашему файлу шрифта и формат */
     font-weight: normal;
     font-style: normal;
 }
@@ -39,7 +39,7 @@ html{
 }
 
 header{
-    /* background-image: url(../Images/HeaderBacgroundImage.png); */
+    /* background-image: url(../img/HeaderBacgroundImage.png); */
 }
 
 body{

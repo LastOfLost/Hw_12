@@ -10,7 +10,7 @@
 
 .GooglePlay{
     position: absolute;
-    background-image: url(/Images/AppIcons/GooglePleyApp.png);
+    background-image: url(../img/AppIcons/GooglePleyApp.png);
     background-size: cover;
     width: 139.65rem;
     height: 45.41rem;
@@ -20,7 +20,7 @@
 
 .AppStore{
     position: absolute;
-    background-image: url(/Images/AppIcons/AppStoreApp.png);
+    background-image: url(../img/AppIcons/AppStoreApp.png);
     background-size: cover;
     width: 139.65rem;
     height: 45.41rem;
@@ -58,7 +58,7 @@
 
 .PreviewAppOnPhone{
     position: absolute;
-    background-image: url(/Images/AppIcons/PreviewApponPhone.png);
+    background-image: url(../img/AppIcons/PreviewApponPhone.png);
     background-size: cover;
     width: 575rem;
     height: 575rem;

@@ -15,7 +15,7 @@
 }
 .ConnectedIcon_1{
     transform: scaleY(-1) scaleX(1);
-    background-image: url(/Images/ConnectionIcon.png);
+    background-image: url(../img/ConnectionIcon.png);
     width: 211.5rem;
     height: 41.64rem;
     top: 266rem;
@@ -25,7 +25,7 @@
 
 .ConnectedIcon_2{
     transform: scaleY(-1) scaleX(1);
-    background-image: url(/Images/ConnectionIcon.png);
+    background-image: url(../img/ConnectionIcon.png);
     rotate: -195deg;
     width: 211.5rem;
     height: 41.64rem;
@@ -54,21 +54,21 @@
 }
 
 .OrderNowIconBackground{
-    background-image: url(/Images/OrderNowBackground.png);
+    background-image: url(../img/OrderNowBackground.png);
     position: absolute;
     width: 88rem;
     height: 88rem;
     left: 118rem;
 }
 .GetDeliveryIconBackground{
-    background-image: url(/Images/GetDeliveryBackground.png);
+    background-image: url(../img/GetDeliveryBackground.png);
     position: absolute;
     width: 88rem;
     height: 88rem;
     left: 118rem;
 }
 .PaymentIconBackground{
-    background-image: url(/Images/PaymentBackground.png);
+    background-image: url(../img/PaymentBackground.png);
     position: absolute;
     width: 88rem;
     height: 88rem;
@@ -76,7 +76,7 @@
 }
 
 .OrderNowIcon{
-    background-image: url(/Images/OrderNowIcon.png);
+    background-image: url(../img/OrderNowIcon.png);
     position: absolute;
     width: 42.05rem;
     height: 32.9rem;
@@ -85,7 +85,7 @@
 }
 
 .GetDeliveryIcon{
-    background-image: url(/Images/GetDeliveryIcon.png);
+    background-image: url(../img/GetDeliveryIcon.png);
     position: absolute;
     width: 55.47rem;
     height: 26.46rem;
@@ -94,7 +94,7 @@
 }
 
 .PaymentIcon{
-    background-image: url(/Images/PaymentIcon.png);
+    background-image: url(../img/PaymentIcon.png);
     position: absolute;
     width: 39.02rem;
     height: 39.03rem;

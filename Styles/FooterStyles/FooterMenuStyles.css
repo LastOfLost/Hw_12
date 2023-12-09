@@ -10,22 +10,22 @@
 }
 
 .FacebookIcon{
-    background-image: url(/Images/FooterIcons/FacebookImage.png);
+    background-image: url("../FooterIcons/FacebookImage.png");
     width: 10.5rem;
     height: 20rem;
 }
 .InstagramIcon{
-    background-image: url(/Images/FooterIcons/InstagramImage.png);
+    background-image: url("../FooterIcons/InstagramImage.png");
     width: 20rem;
     height: 20rem;
 }
 .TwitterIcon{
-    background-image: url(/Images/FooterIcons/TwitterImage.png);
+    background-image: url("../FooterIcons/TwitterImage.png");
     width: 20.38rem;
     height: 16.57rem;
 }
 .YoutubeIcon{
-    background-image: url(/Images/FooterIcons/YoutubeImage.png);
+    background-image: url("../FooterIcons/YoutubeImage.png");
     width: 20rem;
     height: 16rem;
 }
@@ -160,7 +160,7 @@
 }
 
 .InpunButtonIcon{
-    background-image: url(/Images/FooterIcons/SendImage.png);
+    background-image: url('../FooterIcons/SendImage.png');
     background-size: cover;
     display: flex;
     padding: 1rem;

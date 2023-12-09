@@ -29,14 +29,14 @@
 
 
 .NextArrowImage{
-    background-image: url("/Images/Aarrow.png");
+    background-image: url("../img/Arrow.png");
     rotate: 180deg;
     height: 10rem;
     width: 16rem;
 }
 
 .PrevArrowImage{
-    background-image: url("/Images/Aarrow.png");
+    background-image: url("../img/Arrow.png");
     height: 10rem;
     width: 16rem;
 }

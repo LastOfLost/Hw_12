@@ -6,7 +6,7 @@ background: var(--preview-color);
 }
 
 #PreviewGeneralImageBackground{
-    background-image: url(/Images/GeneralBackgroundImage.png);
+    background-image: url(../img/GeneralBackgroundImage.png);
    
     top: 153rem;
     left: 798.04rem;
@@ -15,7 +15,7 @@ background: var(--preview-color);
     rotate: 180deg;
 }
 #PreviewGeneralImageDish{
-    background-image: url(/Images/GeneralDishImage.png);
+    background-image: url(../img/GeneralDishImage.png);
     
     width: 471.43rem;
     height: 477.36rem;
@@ -24,7 +24,7 @@ background: var(--preview-color);
 }
 
 #PreviewGeneralImageVegetables_1{
-    background-image: url(/Images/VegetablesImage_1.png);
+    background-image: url(../img/VegetablesImage_1.png);
     
     width: 242.21rem;
     height: 101.63rem;
@@ -33,7 +33,7 @@ background: var(--preview-color);
     rotate: -1.66deg;
 }
 #PreviewGeneralImageVegetables_2{
-    background-image: url(/Images/VegetablesImage_2.png);
+    background-image: url(../img/VegetablesImage_2.png);
     
     width: 190.69rem;
     height: 190.69rem;
@@ -42,7 +42,7 @@ background: var(--preview-color);
 }
 
 #PreviewGeneralImageVegetables_3{
-    background-image: url(/Images/VegetablesImage_3.png);
+    background-image: url(../img/VegetablesImage_3.png);
     
     width: 25.74rem;
     height: 52.68rem;
@@ -52,7 +52,7 @@ background: var(--preview-color);
 }
 
 #PreviewImage_1{
-    background-image: url(/Images/Image_1.png);
+    background-image: url(../img/Image_1.png);
     background-size: cover;
     position: absolute;
     border: none;
@@ -151,7 +151,7 @@ background: var(--preview-color);
 
 
 #MoreInformationButtonIcon{
-    background-image: url(/Images/MoreInformationIcon.png);
+    background-image: url(../img/MoreInformationIcon.png);
     width: 20rem;
     height: 20rem;
     top: 10rem;

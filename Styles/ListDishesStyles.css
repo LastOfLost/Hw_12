@@ -31,7 +31,7 @@ height: 738rem;
 }
 
 .RatingStarImage{
-    background-image: url(/Images/ListDishes/RatingStar.png);
+    background-image: url(../img/ListDishes/RatingStar.png);
     width: 13.86rem;
     height: 12.22rem;
 }
@@ -46,7 +46,7 @@ height: 738rem;
 }
 
 .DishImage_1{
-    background-image: url(/Images/ListDishes/Dishes/DishImage_1.png);
+    background-image: url(../img/ListDishes/Dishes/DishImage_1.png);
     width: 147.48rem;
     height: 146.72rem;
     top: 15rem;
@@ -55,7 +55,7 @@ height: 738rem;
     flex-direction: column;
 }
 .DishImage_2{
-    background-image: url(/Images/ListDishes/Dishes/DishImage_2.png);
+    background-image: url(../img/ListDishes/Dishes/DishImage_2.png);
     width: 161.85rem;
     height: 152.77rem;
     top: 15rem;
@@ -64,7 +64,7 @@ height: 738rem;
     flex-direction: column;
 }
 .DishImage_3{
-    background-image: url(/Images/ListDishes/Dishes/DishImage_3.png);
+    background-image: url(../img/ListDishes/Dishes/DishImage_3.png);
     width: 134rem;
     height: 133rem;
     top: 15rem;
@@ -73,7 +73,7 @@ height: 738rem;
     flex-direction: column;
 }
 .DishImage_4{
-    background-image: url(/Images/ListDishes/Dishes/DishImage_4.png);
+    background-image: url(../img/ListDishes/Dishes/DishImage_4.png);
     width: 147.48rem;
     height: 146.72rem;
     top: 15rem;
@@ -82,7 +82,7 @@ height: 738rem;
     flex-direction: column;
 }
 .DishImage_5{
-    background-image: url(/Images/ListDishes/Dishes/DishImage_5.png);
+    background-image: url(../img/ListDishes/Dishes/DishImage_5.png);
     width: 147.48rem;
     height: 146.72rem;
     top: 15rem;
@@ -91,7 +91,7 @@ height: 738rem;
     flex-direction: column;
 }
 .DishImage_6{
-    background-image: url(/Images/ListDishes/Dishes/DishImage_6.png);
+    background-image: url(../img/ListDishes/Dishes/DishImage_6.png);
     width: 147.48rem;
     height: 146.72rem;
     top: 15rem;
@@ -148,7 +148,7 @@ height: 738rem;
 }
 
 .BuyDishIcon{
-    background-image: url(/Images/ListDishes/BuyDish.png);
+    background-image: url(../img/ListDishes/BuyDish.png);
     filter: blur(0.15rem);
     position: absolute;
     width: 16.23rem;
@@ -168,7 +168,7 @@ height: 738rem;
 }
 
 .ShareDishIcon{
-    background-image: url(/Images/ListDishes/Share.png);
+    background-image: url(../img/ListDishes/Share.png);
     filter: blur(0.15rem);
     position: absolute;
     width: 13.63rem;
